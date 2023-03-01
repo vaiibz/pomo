@@ -1,0 +1,320 @@
+body {
+  background-color: #1c1919;
+  justify-content: center;
+}
+.container {
+  position: absolute;
+  width: 484px;
+  height: 683px;
+  left: 525px;
+  top: 33px;
+
+  background: #282626;
+}
+.title {
+  position: absolute;
+  width: 407px;
+  height: 52px;
+  left: 38px;
+  top: 33px;
+
+  background: #312ede;
+  border-radius: 4px;
+}
+
+.titleText {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+
+  font-size: 35px;
+
+  margin-top: 6px;
+  left: 150px;
+
+  color: #ffffff;
+}
+
+  
+
+.infoBox {
+  position: absolute;
+  width: 360px;
+  height: 53px;
+  left: 62px;
+  top: 120px;
+  
+
+  background: rgba(53, 53, 78, 0.86);
+border-radius: 8px;
+}
+
+.infoText {
+  position: absolute;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+
+  top: -8px;
+  left: 68px;
+
+  color: #ede9e9;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top:6px;
+}
+.img {
+  position: absolute;
+  top: 50px;
+}
+
+.hourBox {
+  display: flex;
+  position: absolute;
+  top: 220px;
+  
+}
+.hourBtn {
+  position: absolute;
+  width: 130px;
+  height: 52px;
+  left: 38px;
+  top: px;
+ 
+
+  background: #8e0edc;
+  border-radius: 4px;
+}
+.hourText {
+  position: absolute;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+margin-top:10px ;
+margin-left: 32px;
+
+
+
+color: #FFFFFF;
+
+}
+
+.hourDisplay {
+  position: absolute;
+width: 240px;
+height: 49px;
+left: 200px;
+
+
+background: #DFD0D0;
+border-radius: 4px;
+text-align: center;
+font-family: inter ;
+top: -2px;
+font-size: 40px
+}
+.minBox {
+  display: flex;
+  position: absolute;
+  top: 340px;
+  
+}
+.minBtn {
+  position: absolute;
+  width: 130px;
+  height: 52px;
+  left: 38px;
+  top: px;
+ 
+
+  background:  #C632AE;
+  ;
+  border-radius: 4px;
+}
+.minText {
+  position: absolute;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+margin-top:10px ;
+margin-left: 22px;
+
+
+
+color: #FFFFFF;
+
+}
+
+.minDisplay {
+  position: absolute;
+width: 240px;
+height: 49px;
+left: 200px;
+
+
+background: #DFD0D0;
+border-radius: 4px;
+text-align: center;
+font-family: inter ;
+top: -2px;
+font-size: 40px
+}
+.secBox {
+  display: flex;
+  position: absolute;
+  top: 460px;
+  
+}
+.secBtn {
+  position: absolute;
+  width: 130px;
+  height: 52px;
+  left: 38px;
+  top: px;
+  background: #C63267;
+  border-radius: 4px;
+}
+.secText {
+  position: absolute;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+margin-top:10px ;
+margin-left: 16px;
+
+
+
+color: #FFFFFF;
+
+}
+
+.secDisplay {
+  position: absolute;
+width: 240px;
+height: 49px;
+left: 200px;
+
+
+background: #DFD0D0;
+border-radius: 4px;
+text-align: center;
+font-family: inter ;
+top: -2px;
+font-size: 40px
+}
+
+ 
+ input[type="number"]:focus {
+  outline: none;
+  border-color: #9ca3af;
+  box-shadow: 0 0 0 1px #9ca3af;
+} *
+
+
+/* Style the buttons */
+.btn {
+  display: flex;
+  position: absolute;
+  left: 38px;
+  top: 590px;
+}
+.strtBtn {
+width: 130px;
+height: 52px;
+background: #1A7946;
+border: 5px solid #00F990;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.rstBtn {
+  position:absolute;
+  width: 246px;
+height: 52px;
+left: 166px;
+background: #602823;
+border: 5px solid #DE0E0E;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+
+.strtBtn:hover {
+  background-color: #09e231;
+}
+.rstBtn:hover {
+  background-color: #c52323;
+}
+
+button:disabled {
+  background-color: #e2e8f0;
+  color: #a5b4c5;
+  cursor: not-allowed;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.modal-body {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.modal-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #4f46e5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-btn:hover {
+  background-color: #4338ca;
+}

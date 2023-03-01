@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <title>Timer App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><h1 class="titleText">Timer</h1></div>
+      
+      <div class="infoBox">
+        
+          <img
+            src="assets/heroicons_light-bulb-yellow-20-solid.svg"
+            alt="bulbicon"
+            class="icon"
+          />
+        
+          <p class="infoText">
+            Enter a value inside the input field. <br />
+            Click start button to start the timer.
+          </p>
+        
+      </div>
+
+      <div class="hourBox">
+        <div class="hourBtn"><label class="hourText"> Hours</label></div>
+        <input
+          class="hourDisplay"
+          type="number"
+          id="hours"
+          min="0"
+          max="23"
+          value="0"
+        />
+      </div>
+
+      <div class="minBox">
+        <div class="minBtn"><label class="minText">Minutes</label></div>
+
+        <input
+          class="minDisplay"
+          type="number"
+          id="minutes"
+          min="0"
+          max="59"
+          value="0"
+        />
+      </div>
+
+      <div class="secBox">
+        <div class="secBtn"><label class="secText">Seconds</label></div>
+
+        <input
+          class="secDisplay"
+          type="number"
+          id="seconds"
+          min="0"
+          max="59"
+          value="0"
+        />
+      </div>
+
+      <div class="btn">
+        <button class="strtBtn" id="startBtn">Start</button>
+        <button class="rstBtn" id="resetBtn">Reset</button>
+      </div>
+      <audio id="audio" src="assets/sound.mp3"></audio>
+      
+
+    </div>
+
+    <script src="timer.js"></script>
+  </body>
+</html>
